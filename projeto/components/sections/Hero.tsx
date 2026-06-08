@@ -40,7 +40,7 @@ export default function Hero() {
 
         <div className="w-[1200px] max-w-full">
           <svg
-            className="w-full h-auto block mx-auto drop-shadow-[4px_6px_0_rgba(0,0,0,0.9)] mb-8 select-none pointer-events-none"
+            className="vertebra-hero-svg w-full h-auto block mx-auto drop-shadow-[4px_6px_0_rgba(0,0,0,0.9)] mb-8 select-none pointer-events-none"
             viewBox="0 0 1400 280"
             preserveAspectRatio="xMidYMid meet"
             xmlns="http://www.w3.org/2000/svg"
@@ -90,17 +90,17 @@ export default function Hero() {
               </video>
             </foreignObject>
             
-            {/* Contorno vermelho escuro POR CIMA do vídeo */}
+            {/* Contorno animado multicor POR CIMA do vídeo */}
             <text
               x="50%"
               y="52%"
               textAnchor="middle"
               dominantBaseline="middle"
+              className="vertebra-stroke-animated"
               style={{ fontFamily: 'var(--font-pirata), serif', paintOrder: 'stroke' }}
               fontSize="240"
               fontWeight="400"
               fill="none"
-              stroke="#5C0A0A"
               strokeWidth="2"
             >
               VERTEBRA

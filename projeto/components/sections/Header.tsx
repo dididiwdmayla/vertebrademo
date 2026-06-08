@@ -83,17 +83,17 @@ export default function Header() {
               </video>
             </foreignObject>
 
-            {/* Contorno no logo */}
+            {/* Contorno animado multicor no logo */}
             <text
               x="50%"
               y="55%"
               textAnchor="middle"
               dominantBaseline="middle"
+              className="vertebra-stroke-animated"
               style={{ fontFamily: 'var(--font-pirata), serif', paintOrder: 'stroke' }}
               fontSize="32"
               fontWeight="400"
               fill="none"
-              stroke="#5C0A0A"
               strokeWidth="0.5"
             >
               VERTEBRA

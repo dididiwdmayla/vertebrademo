@@ -123,6 +123,19 @@
     -ms-user-select: none;
   }
 
+  /* Animação multicor do contorno VERTEBRA */
+  @keyframes vertebra-stroke-cycle {
+    0%   { stroke: #8B0000; }
+    25%  { stroke: #3D0066; }
+    50%  { stroke: #0A1A3D; }
+    75%  { stroke: #660033; }
+    100% { stroke: #8B0000; }
+  }
+
+  .vertebra-stroke-animated {
+    animation: vertebra-stroke-cycle 12s ease-in-out infinite;
+  }
+
   @media (max-width: 768px) {
     .gothic-letter {
       font-size: 5rem !important;
@@ -131,6 +144,14 @@
     
     .gothic-letter:nth-child(n+26) {
       display: none;
+    }
+
+    /* Hero VERTEBRA - aumentar no mobile */
+    .vertebra-hero-svg {
+      transform: scaleY(1.6) scaleX(1.15);
+      transform-origin: center center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
   }
 }
