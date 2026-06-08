@@ -1,8 +1,0 @@
-{
-  "name": "VERTEBRA Studio",
-  "description": "Estúdio de tatuagem autoral em Maringá.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
